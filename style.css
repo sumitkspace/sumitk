@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 80vw;
+    margin: auto; */
+    padding-top: 25px;
+    color: rebeccapurple;
+    
+}
+
+.hrline{
+    margin: auto;
+    width: 95vw;
+    margin-top: 12px;
+    box-shadow: 1px solid rebeccapurple;
+}
+.logo {
+    text-transform: uppercase;
+    font-size: 2.3em;
+    letter-spacing: 2px;
+    font-weight: bold;
+    cursor: pointer;
+    color:rebeccapurple   
+}
+.logo:hover{
+    color: rgb(218, 74, 148);
+}
+.menu .menu-list{
+    display: flex;
+    font-weight: bold;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+
+.menu-list li{
+    list-style: none;
+    padding-right: 60px;
+    color: rebeccapurple;
+    cursor: pointer;
+}
+.menu-list li:hover
+{
+    color: rgb(218, 74, 148);
+}
+/* 
+section{
+    width: 60vw;
+    margin: auto;
+} */
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left h1 p{
+    text-align: center;
+}
+.left h1{
+    color: rebeccapurple;
+    font-size: 2.3em;
+    letter-spacing: 2px;
+    font-style: normal;
+    text-align: center;
+    
+}
+.left p{
+    color: gray;
+    letter-spacing: 2px;
+    font-size: 1.3em;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.left .btn{
+    text-align: center;
+    padding-top: 50px;
+}
+.btn .btn1{
+    padding: 10px 50px 10px 50px;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 30px;
+    background: rebeccapurple;
+    cursor: pointer;
+    color: white;
+    border: none;
+    
+}
+.btn .btn1:hover
+{
+    background:  rgb(218, 74, 148);
+   
+}
+.right img{
+    width: 600px;
+    height: auto;
+}
+
